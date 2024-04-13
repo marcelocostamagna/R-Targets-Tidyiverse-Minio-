@@ -20,7 +20,6 @@ make build
 ```bash
 make up
 ```
-Note: Delete `minio_storage/.minio.sys` when changing minio docker tag
 
 3. Access `Rstudio` UI `http://localhost:8787/`
 
@@ -46,6 +45,8 @@ Versioned objects are stored under **targets-versioned/tarpref/objects** prefix
 ```R
 targets::tar_read(metrics)
 ```
+
+Note: Delete `minio/.minio.sys` when changing minio docker tag
 
 ### Utils
 ```bash
