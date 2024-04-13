@@ -23,4 +23,4 @@ logs:
 
 .PHONY: clean-bucket
 clean-bucket:
-	rm -fr ./minio_storage/targets-versioned
+	rm -fr ./minio/targets-versioned

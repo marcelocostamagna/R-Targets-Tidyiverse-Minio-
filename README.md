@@ -4,11 +4,12 @@
 
 In order to run and interact with the environment, a couple of helpers are available in the form of a `Makefile`.
 
+- `build`: build all required services
 - `down`: stop and remove docker compose services, including volumes
 - `up`: start docker compose services in detached mode
 - `top`: start a `ctop` to view deployed containers
 - `logs`: tails logs from stack containers
-- `clean-bucket`: remove `./minio_storage/targets-versioned` bucket form minio
+- `clean-bucket`: remove `./minio/targets-versioned` bucket in minio
 
 1. Build services
 ```bash
@@ -16,7 +17,6 @@ make build
 ```
 
 2. Launch services
-
 ```bash
 make up
 ```
