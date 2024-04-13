@@ -1,0 +1,13 @@
+# Environments
+.env
+.venv
+env/
+venv/
+code/outputs
+code/_targets/meta
+minio/
+code/.Rhistory
+code/.Rproj.user/
+code/_targets/
+code/workspace.Rproj
+

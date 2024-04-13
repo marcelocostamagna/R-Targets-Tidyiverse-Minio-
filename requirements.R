@@ -1,0 +1,8 @@
+install.packages("remotes")
+remotes::install_version("targets", version = "1.6.0")
+remotes::install_version("visNetwork", version = "2.1.2")
+remotes::install_version("crew", version = "0.9.1") 
+remotes::install_version("paws", version = "0.5.0")
+remotes::install_version("tidymodels", version = "1.2.0")
+remotes::install_version("tidyverse", version = "1.3.2")
+remotes::install_version("ranger", version = "0.16.0")

@@ -1,0 +1,42 @@
+{
+    "save_workspace": "never",
+    "load_workspace": false,
+    "initial_working_directory": "~/code",
+    "font_size_points": 11,
+    "editor_theme": "Tomorrow Night Bright",
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "bash",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer"
+        ],
+        "hiddenTabSet": [],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "remove_history_duplicates": true,
+    "highlight_selected_line": true,
+    "show_indent_guides": true,
+    "highlight_r_function_calls": true,
+    "insert_native_pipe_operator": true
+}
